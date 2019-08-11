@@ -1,0 +1,112 @@
+{
+    "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+    "terminal.integrated.rendererType": "dom",
+    "workbench.colorTheme": "Cobalt2",
+    "editor.fontFamily": "Operator Mono, Menlo, Monaco,   'Courier New', monospace",
+    "editor.fontSize": 20,
+    "editor.autoIndent": true,
+    "window.closeWhenEmpty": true,
+    "editor.detectIndentation": false,
+    "files.insertFinalNewline": true,
+    "editor.showFoldingControls": "always",
+    "editor.find.seedSearchStringFromSelection": true,
+    "editor.matchBrackets": true,
+    // "window.openFilesInNewWindow": "off",
+    "workbench.editor.enablePreview": true,
+    "editor.scrollBeyondLastLine": true,
+    "editor.useTabStops": true,
+    "editor.formatOnPaste": true,
+    "window.zoomLevel": 0,
+    // "editor.parameterHints.enabled": false,
+    "editor.lineHeight": 30,
+    "editor.quickSuggestionsDelay": 30,
+    "editor.letterSpacing": 0.5,
+    // "workbench.editor.tabSizing": "shrink",
+    "html.format.enable": true,
+    "html.format.preserveNewLines": true,
+    "files.trimTrailingWhitespace": true,
+    "workbench.iconTheme": "vscode-great-icons",
+    // "editor.tabSize": 2,
+    "editor.cursorWidth": 5,
+    // this isn't really underline but we hack it to be a thicker cursor
+    "editor.cursorStyle": "line",
+    "editor.wordWrap": "on",
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.fontWeight": "600",
+    "workbench.editor.tabCloseButton": "off",
+    "editor.cursorBlinking": "solid",
+    "editor.colorDecorators": true,
+    "editor.minimap.enabled": true,
+    "editor.minimap.showSlider": "always",
+    "editor.renderWhitespace": "none",
+    "extensions.ignoreRecommendations": true,
+    // show snippets before any other auto completion
+    "editor.snippetSuggestions": "top",
+    // "editor.rulers": [
+    //     80,
+    //     100
+    // ],
+    // "workbench.startupEditor": "newUntitledFile",
+    // "workbench.activityBar.visible": false,
+    // "workbench.sideBar.location": "left",
+    // "editor.renderWhitespace": "all",
+    // "files.exclude": {
+    //   "**/.git": true,
+    //   "**/.svn": true,
+    //   "**/.hg": true,
+    //   "**/CVS": true,
+    //   "**/.DS_Store": true,
+    //   "**/.next": true
+    // },
+    // "emmet.includeLanguages": {
+    //     "javascript": "javascriptreact"
+    // },
+    // this lets you quick open multiple items in a row and now have the previous ones closed on you
+    "workbench.editor.enablePreviewFromQuickOpen": false,
+    "window.title": "${dirty} ${activeEditorMedium}${separator}${rootName}",
+    "explorer.confirmDragAndDrop": false,
+    // These are all my auto-save configs
+    // "editor.formatOnSave": true,
+    // turn it off for JS
+    // "[javascript]": {
+    //     "editor.formatOnSave": false
+    // },
+    // tell the ESLint plugin to run on save
+    // "eslint.autoFixOnSave": true,
+    // Optional: If you have the prettier extension enabled for other languages like CSS and HTML, turn it off for JS since we are doing it through Eslint already
+    // "prettier.eslintIntegration": true,
+    // "prettier.disableLanguages": [
+    //   "js"
+    // ],
+    // "eslint.alwaysShowStatus": true,
+    // "cSpell.userWords": [
+    //   "SIGNUP",
+    //   "Signin",
+    //   "Signout",
+    //   "TLDR",
+    //   "Templating",
+    //   "backend",
+    //   "camo",
+    //   "destructure",
+    //   "gmail",
+    //   "injectable",
+    //   "lightgrey",
+    //   "minmax",
+    //   "prefetch",
+    //   "promisify",
+    //   "refetch",
+    //   "wesbos"
+    // ],
+    // "[jade]": {
+    //     "togglequotes.chars": [
+    //         "\"",
+    //         "'",
+    //         "`"
+    //     ]
+    // },
+    // Very important: Install this plugin: https://github.com/be5invis/vscode-custom-css
+    // you'll need to change this to an absolute path on your computer
+    // "vscode_custom_css.imports": [
+    // "/Volumes/Macintosh HD/Users/wesbos/.vscodestyles.css"
+    // ],
+}
