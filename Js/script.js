@@ -20,13 +20,14 @@ const moveToAbout = () => moveToElement(about)
 const moveToServices = () => moveToElement(services)
 const moveToFooter = () => moveToElement(external)
 
+
 contactLink.addEventListener("click", moveToContact)
 aboutLink.addEventListener("click", moveToAbout)
 servicesLink.addEventListener("click", moveToServices)
 ExternalLink.addEventListener("click", moveToFooter)
 
 
-// function moving to elemernt itself
+// function moving to element itself
 function moveToElement(elm) {
     // console.log(elm)
     elm.scrollIntoView ({
