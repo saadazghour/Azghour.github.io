@@ -5,47 +5,33 @@ html {
 
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /* border: 2px solid red; */
 }
 
 
 body {
-    margin: 0;
-    padding: 0;
     min-height: 100vh;
-}
-
-
-.container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-
-    /* border: 2px solid green; */
-    width: 100%;
-
-    list-style-type: none;
-    background-color: rgb(56, 62, 76);
 }
 
 
 .sticky {
     position: fixed;
     top: 0;
+    width: 100%;
 }
 
 
-.container > ul > li {
-    flex: auto;
-    padding: 10px;
-    display: inline-flex;
+#target-menu > li > a:hover {
+    background-color: #646d7c;
+    cursor: pointer;
 }
 
 
-.container > ul > li > a {
-
+#target-menu > li > a {
     padding: 15px 25px;
-
+    width: 100%;
     border-image: initial;
     border-width: 1px;
     border-style: solid;
@@ -60,20 +46,52 @@ body {
 }
 
 
-.container > ul > li > a:hover {
-    background-color: #646d7c;
+#target-menu li {
+    text-align: center;
+    margin: 15px auto;
+    /* border: 2px solid red; */
+
+    flex: auto;
+    padding: 10px;
+    display: inline-flex;
+    list-style-type: none;
 }
 
 
-.container > ul {
-    padding: 0px;
-    margin: 0px;
+#target-navbar:hover {
+    color: #fff;
+    transition: all ease 0.5s;
+}
+
+
+#target-navbar {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    cursor: pointer;
+
+    /* padding: 10px; */
+    /* margin: 8px 15px 8px 0px; */
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    font-size: 30px;
+    transition: all ease 0.3s;
+}
+
+
+#target-menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #383e4c;
 }
 
 
 .bg-cover {
 
-    height: 60vh;
+    height: 100vh;
     background: rgb(148, 131, 100) url("../assets/bg-1.jpg") no-repeat center / cover;
 
     display: flex;
@@ -128,7 +146,10 @@ body {
 
 
 .btn-send:hover {
-
+    color: #333;
+    background-color: #e6e6e6;
+    border-color: #adadad;
+    cursor: pointer;
 }
 
 
@@ -139,7 +160,7 @@ body {
     background: #262628;
     padding: 10px 30px;
     border-radius: 10px;
-    /* transition: all 0.3s ease 0s; */
+    transition: all 0.3s ease 0s;
 }
 
 
@@ -566,9 +587,9 @@ p {
 
     color: #c9c9d8;
     font-size: 32px;
+    margin-top: 60px;
     font-style: italic;
     margin-bottom: 25px;
-    margin-top: 35px;
     font-weight: 500;
     line-height: 1.1;
 
@@ -585,7 +606,7 @@ p {
     width: 100%;
     min-height: 1px;
     padding: 0px 15px;
-    margin: 35px 0px 30px 0px;
+    margin: 35px 0px 80px 0px;
 }
 
 
