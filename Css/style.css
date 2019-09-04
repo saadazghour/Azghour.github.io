@@ -94,6 +94,14 @@ body {
     height: 100vh;
     background: rgb(148, 131, 100) url("../assets/bg-1.jpg") no-repeat center / cover;
 
+    position: relative;
+    /*
+        fixed = parallax
+        scroll = normal
+    */
+    background-attachment: fixed;
+    z-index: -1;
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -211,6 +219,10 @@ body {
 
     height: 100%;
     background: url("../assets/bg-3.jpg") no-repeat center / cover;
+
+    position: relative;
+    background-attachment: fixed;
+
     padding: 80px 0px 60px;
 
     display: grid;
@@ -224,10 +236,12 @@ body {
     height: 100%;
     background: url("../assets/bg-2.jpg") no-repeat center / cover;
 
+    position: relative;
+    background-attachment: fixed;
+
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 6%
 }
 
 
@@ -287,6 +301,13 @@ h1 {
 
     h4 {
         font-size: 20px;
+    }
+}
+
+
+@media only screen and (min-width: 1080px) {
+    .wrapper-section {
+        margin: 0 33%;
     }
 }
 
@@ -428,7 +449,7 @@ p {
     font-size: 18px;
     padding: 10px 30px;
     text-decoration: none;
-    margin-top: 15px;
+    margin: 0px auto 10px;
     transition: all 0.3s ease;
 }
 
@@ -439,6 +460,9 @@ p {
     justify-content: center;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     grid-gap: 20px;
+    padding: 15px;
+
+    margin-top: 60px;
 }
 
 
@@ -537,6 +561,9 @@ p {
 .img-responsive {
     max-width: 100%;
     height: auto;
+
+    position: relative;
+    background-attachment: fixed;
 }
 
 

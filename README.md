@@ -16,7 +16,11 @@ $ git clone https://github.com/Azghour-Saad/Azghour.github.io.git
 
 $ cd Azghour.github.io
 
-$ Open index.html in the browser OR Use Live Server Extension like me and hit ( CTR + L + O ) will opened index.html through VSCode editor.
+$ Open index.html in the browser OR
+
+$ Use Live Server Extension like me and hit ( ALT + L + O )
+
+$ will opened index.html through VSCode editor.
 ```
 
 
