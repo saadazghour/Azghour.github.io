@@ -220,6 +220,7 @@ body {
     height: 100%;
     background: url("../assets/bg-3.jpg") no-repeat center / cover;
 
+    z-index: -4;
     position: relative;
     background-attachment: fixed;
 
@@ -236,6 +237,7 @@ body {
     height: 100%;
     background: url("../assets/bg-2.jpg") no-repeat center / cover;
 
+    z-index: -2;
     position: relative;
     background-attachment: fixed;
 
@@ -562,6 +564,7 @@ p {
     max-width: 100%;
     height: auto;
 
+    z-index: -3;
     position: relative;
     background-attachment: fixed;
 }

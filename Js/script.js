@@ -62,3 +62,16 @@ navToggle.addEventListener('click', function () {
     }
 })
 
+
+
+/* Create the parallax scrolling effect with javScript */
+
+const parallax = document.getElementsByClassName('parallax')
+
+window.addEventListener('scroll', function (params) {
+    let offset = window.pageYOffset
+
+    for (let index = 0; index < parallax.length; index++){
+        parallax[index].style.backgroundPositionY = offset * 0.30
+    }
+})
